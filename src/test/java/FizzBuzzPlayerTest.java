@@ -29,4 +29,9 @@ public class FizzBuzzPlayerTest {
     public void shouldReturnBuzzWhenSay5() {
         assertEquals("Buzz", player.say(5));
     }
+
+    @Test
+    public void shouldReturnBuzzWhenSay10() {
+        assertEquals("Buzz", player.say(10));
+    }
 }
