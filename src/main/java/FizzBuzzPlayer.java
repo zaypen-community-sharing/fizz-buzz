@@ -3,6 +3,8 @@ public class FizzBuzzPlayer {
     public String say(int i) {
         if (i % 3 == 0) {
             return "Fizz";
+        } else if (i == 5) {
+            return "Buzz";
         }
         return String.valueOf(i);
     }
