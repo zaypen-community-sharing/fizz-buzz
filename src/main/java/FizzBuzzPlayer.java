@@ -1,12 +1,16 @@
 public class FizzBuzzPlayer {
 
+    private static final String BUZZ = "Buzz";
+    private static final String FIZZ = "Fizz";
+    private static final String FIZZ_BUZZ = FIZZ + BUZZ;
+
     public String say(int i) {
         if (i % 15 == 0) {
-            return "FizzBuzz";
+            return FIZZ_BUZZ;
         } else if (i % 3 == 0) {
-            return "Fizz";
+            return FIZZ;
         } else if (i % 5 == 0) {
-            return "Buzz";
+            return BUZZ;
         }
         return String.valueOf(i);
     }
