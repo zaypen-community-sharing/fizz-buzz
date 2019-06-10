@@ -1,7 +1,7 @@
 public class FizzBuzzPlayer {
 
     public String say(int i) {
-        return "1";
+        return String.valueOf(i);
     }
 
     public static void main(String[] args) {
