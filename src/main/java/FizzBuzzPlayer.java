@@ -2,7 +2,11 @@ public class FizzBuzzPlayer {
 
     public String say(int i) {
         if (i % 3 == 0) {
-            return "Fizz";
+            if (i % 5 == 0) {
+                return "FizzBuzz";
+            } else {
+                return "Fizz";
+            }
         } else if (i % 5 == 0) {
             return "Buzz";
         }
